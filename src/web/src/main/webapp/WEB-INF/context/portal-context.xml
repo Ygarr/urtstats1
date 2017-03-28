@@ -1,0 +1,79 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
+    
+    <import resource="classpath:core-context.xml"/>
+<!--     <import resource="classpath:reports-context.xml"/> -->
+
+    <context:annotation-config />
+
+    <context:component-scan base-package="urt.stats.web" />
+
+
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath" value="/WEB-INF/fm/"/>
+        <property name="freemarkerSettings">
+            <props>
+                <prop key="default_encoding">UTF-8</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="1000000"/>
+        <property name="maxInMemorySize" value="1000000"/>
+    </bean>
+
+    <bean id="localeResolver"
+        class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="defaultLocale" value="en"/>
+    </bean>
+
+    <bean id="messageSource"
+        class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>WEB-INF/msg/common/msg</value>
+                <value>WEB-INF/msg/portal/msg</value>
+                <value>WEB-INF/msg/chart/msg</value>
+            </list>
+        </property>
+        <property name="defaultEncoding" value="UTF-8" />
+    </bean>
+    
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <property name="cache" value="false"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftl"/>
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+    </bean>
+    
+    <mvc:interceptors>
+        <bean id="localeChangeInterceptor"
+              class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <property name="paramName" value="lang" />
+        </bean>
+    </mvc:interceptors>
+    
+<!--     <context:property-placeholder location="classpath:urtstats.properties" ignoreUnresolvablePlaceholders="true"/> -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+      <property name="locations">
+          <list>
+              <value>classpath:urtstats.properties</value>
+          </list>
+      </property>
+      <property name="ignoreUnresolvablePlaceholders" value="true"/>
+    </bean>
+    
+    <bean id="urtStatsConfig" class="urt.stats.web.UrTStatsConfig">
+        <property name="defaultPageSize" value="${default.page.size}"/>
+        <property name="version" value="${project.version}"/>
+    </bean>
+    
+</beans>

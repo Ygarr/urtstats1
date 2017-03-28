@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>urt.stats</groupId>
+      <artifactId>main</artifactId>
+      <version>0.3.2-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>core</artifactId>
+  <packaging>jar</packaging>
+
+  <name>UrbanTerrorStatsCore</name>
+  <description>UrbanTerrorStats core module</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+      <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <configuration>
+              <archive>
+                  <manifestEntries>
+                      <SCM-Revision>${project.version}</SCM-Revision>
+                      <Main-Class>urt.stats.core.StatsCalc</Main-Class>
+                  </manifestEntries>
+              </archive>
+  </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>commons-dbcp</groupId>
+        <artifactId>commons-dbcp</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.imgscalr</groupId>
+        <artifactId>imgscalr-lib</artifactId>
+      </dependency>
+      <dependency>  
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+      </dependency>
+  </dependencies>
+</project>

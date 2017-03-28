@@ -1,0 +1,71 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/2.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/2.3 http://maven.apache.org/xsd/assembly-2.3.xsd">
+  <id>urt-stats-assembly</id>
+  
+  <formats>
+    <format>zip</format>
+  </formats>
+  
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <moduleSets>
+    <moduleSet>
+      <useAllReactorProjects>true</useAllReactorProjects>
+      <includes>
+         <include>urt.stats:core:jar:${project.version}</include>
+      </includes>
+      <binaries>
+        <outputDirectory>urt-stats-${project.version}/lib</outputDirectory>
+        <includeDependencies>true</includeDependencies>
+        <unpack>false</unpack>
+        <dependencySets>
+          <dependencySet>
+            <unpack>false</unpack>
+          </dependencySet>
+        </dependencySets>
+      </binaries>
+    </moduleSet>
+    <moduleSet>
+      <useAllReactorProjects>true</useAllReactorProjects>
+      <includes>
+         <include>urt.stats:web:war:${project.version}</include>
+      </includes>
+      <binaries>
+        <outputDirectory>urt-stats-${project.version}/web/webapps/urtstats</outputDirectory>
+        <includeDependencies>false</includeDependencies>
+        <unpack>true</unpack>
+      </binaries>
+    </moduleSet>
+  </moduleSets>
+  
+  <fileSets>
+    <fileSet>
+      <directory>${basedir}/src/main/resources/bin</directory>
+      <outputDirectory>urt-stats-${project.version}/bin</outputDirectory>
+      <includes>
+        <include>*.sh</include>
+      </includes>
+      <lineEnding>unix</lineEnding>
+      <fileMode>0755</fileMode>
+    </fileSet>
+    <fileSet>
+      <directory>${basedir}/src/main/resources/cfg</directory>
+      <outputDirectory>urt-stats-${project.version}/cfg</outputDirectory>
+      <includes>
+        <include>*.*</include>
+      </includes>
+      <lineEnding>unix</lineEnding>
+      <fileMode>0755</fileMode>
+    </fileSet>
+    <fileSet>
+      <directory>${project.parent.basedir}/db</directory>
+      <outputDirectory>urt-stats-${project.version}/db</outputDirectory>
+      <includes>
+        <include>*.*</include>
+      </includes>
+      <lineEnding>unix</lineEnding>
+      <fileMode>0755</fileMode>
+    </fileSet>
+  </fileSets>
+</assembly>

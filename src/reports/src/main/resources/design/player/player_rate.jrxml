@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="player_rate" language="groovy" pageWidth="1200" pageHeight="595" orientation="Landscape" columnWidth="1160" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c8893178-02a6-4663-90d5-e29292bdb386">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="P_PLAYER_ID" class="java.lang.Long">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="P_DATE_FORMAT" class="java.text.SimpleDateFormat" isForPrompting="false">
+		<defaultValueExpression><![CDATA[new java.text.SimpleDateFormat("dd.MM.yy HH:mm")]]></defaultValueExpression>
+	</parameter>
+	<parameter name="P_PORTAL_URL" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["http://sand.sunbay.crimea.ua/urtstats/portal"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+	m.id		AS match_id
+      , m.start_time    AS match_date
+      , map.id	        AS map_id
+      , map.name	AS map_name
+      , p.id	        AS player_id
+      , p.name		AS player_name
+      , pm.kills	AS player_kills
+      , pm.deaths	AS player_deaths
+      , pm.kd_ratio     AS player_rate
+FROM
+        urt_match m
+   JOIN urt_map map
+     ON map.id = m.map_id
+   JOIN urt_player_match pm
+     ON pm.match_id = m.id
+   JOIN urt_player p
+     ON p.id = pm.player_id
+    AND p.id = $P{P_PLAYER_ID}
+ORDER BY m.start_time]]>
+	</queryString>
+	<field name="match_id" class="java.lang.Long">
+		<fieldDescription><![CDATA[Match ID ref.]]></fieldDescription>
+	</field>
+	<field name="match_date" class="java.sql.Timestamp"/>
+	<field name="map_id" class="java.lang.Long"/>
+	<field name="map_name" class="java.lang.String">
+		<fieldDescription><![CDATA[Match map name.]]></fieldDescription>
+	</field>
+	<field name="player_id" class="java.lang.Long">
+		<fieldDescription><![CDATA[Player ID.]]></fieldDescription>
+	</field>
+	<field name="player_name" class="java.lang.String"/>
+	<field name="player_kills" class="java.lang.Integer"/>
+	<field name="player_deaths" class="java.lang.Integer"/>
+	<field name="player_rate" class="java.math.BigDecimal"/>
+	<title>
+		<band height="267" splitType="Stretch">
+			<timeSeriesChart>
+				<chart evaluationTime="Report">
+					<reportElement uuid="56d82d43-f8a2-42a8-aefa-10fa0aa599ed" x="0" y="0" width="1160" height="267"/>
+					<chartTitle>
+						<titleExpression><![CDATA["Player rate"]]></titleExpression>
+					</chartTitle>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<timeSeriesDataset timePeriod="Hour">
+					<timeSeries>
+						<seriesExpression><![CDATA["player rate"]]></seriesExpression>
+						<timePeriodExpression><![CDATA[$F{match_date}]]></timePeriodExpression>
+						<valueExpression><![CDATA[$F{player_rate}]]></valueExpression>
+						<labelExpression><![CDATA[""]]></labelExpression>
+						<itemHyperlink hyperlinkType="Reference" hyperlinkTarget="Blank">
+							<hyperlinkReferenceExpression><![CDATA[$P{P_PORTAL_URL} + "/match_details?id=" + $F{match_id}]]></hyperlinkReferenceExpression>
+							<hyperlinkTooltipExpression><![CDATA["date: " + $P{P_DATE_FORMAT}.format($F{match_date}) + "\n"
++ "map: " + $F{map_name} + "\n"
++ "rate: " + $F{player_rate} + "\n"]]></hyperlinkTooltipExpression>
+						</itemHyperlink>
+					</timeSeries>
+				</timeSeriesDataset>
+				<timeSeriesPlot isShowLines="true" isShowShapes="true">
+					<plot>
+						<seriesColor seriesOrder="0" color="#3366FF"/>
+					</plot>
+					<timeAxisLabelExpression><![CDATA["matches"]]></timeAxisLabelExpression>
+					<timeAxisFormat>
+						<axisFormat tickLabelMask="dd.MM"/>
+					</timeAxisFormat>
+					<valueAxisLabelExpression><![CDATA["rate"]]></valueAxisLabelExpression>
+					<valueAxisFormat>
+						<axisFormat tickLabelMask="0.#"/>
+					</valueAxisFormat>
+				</timeSeriesPlot>
+			</timeSeriesChart>
+		</band>
+	</title>
+</jasperReport>

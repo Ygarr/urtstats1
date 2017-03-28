@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           jaxb:version="2.0"
+           xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+           >
+
+<!-- Type definition -->
+  <!-- Map type Enum -->
+  <xs:simpleType name="mapType">
+      <xs:restriction base="xs:string">
+          <xs:enumeration value="TINY"/>
+          <xs:enumeration value="SMALL"/>
+          <xs:enumeration value="MEDIUM"/>
+          <xs:enumeration value="LARGE"/>
+      </xs:restriction>
+  </xs:simpleType>
+  <!--  Type of qualities for content -->
+  <xs:simpleType name="nameStr">
+      <xs:restriction base="xs:string">
+         <xs:minLength value="1" />
+         <xs:maxLength value="40" />
+      </xs:restriction>
+  </xs:simpleType>
+<!-- Element structure definition -->
+  <xs:element name="urt_map_import">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="maps" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="map" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="fileName" type="nameStr" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="type" type="mapType" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="hasBots" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="images" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="image" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:all>
+                                <xs:element name="contentURL" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
+                              </xs:all>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

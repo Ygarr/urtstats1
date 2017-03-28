@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>urt.stats</groupId>
+      <artifactId>main</artifactId>
+      <version>0.3.2-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>dist</artifactId>
+  <packaging>pom</packaging>
+
+  <name>UrbanTerrorStatsDist</name>
+  <description>UrbanTerrorStats dist module</description>
+
+
+  <build>
+    <finalName>urt-stats-${project.version}</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+           <createChecksum>true</createChecksum> 
+          <descriptors>
+            <descriptor>${basedir}/src/main/assembly/assembly.xml</descriptor>
+          </descriptors>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+               <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <dependencies>
+      <dependency>
+          <groupId>urt.stats</groupId>
+          <artifactId>core</artifactId>
+          <type>jar</type>
+      </dependency>
+      <dependency>
+          <groupId>urt.stats</groupId>
+          <artifactId>web</artifactId>
+          <type>war</type>
+      </dependency>
+  </dependencies>
+</project>

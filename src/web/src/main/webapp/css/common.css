@@ -1,0 +1,163 @@
+/*************/
+/* MATCH LIST*/
+/*************/
+.team_RED{
+    color: red;
+}
+
+.team_BLUE{
+    color: blue;
+}
+
+.team_SPECTATOR{
+    color: grey;
+}
+
+.team_SKIPPED{
+    color: grey;
+}
+
+.match_paged_list{
+/*     border: 1px solid plack; */
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.match_paged_list TR{
+    
+}
+
+.match_paged_list TR.data_row:hover{
+    background-color: navy;
+    cursor: pointer;
+}
+
+.match_paged_list TR.data_row:hover TD{
+    background-color: navy !important;
+    color: white;
+}
+
+
+.match_paged_list TH{
+    background-color: grey;
+    border: 1px solid black;
+    padding: 0 5px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.match_paged_list TH A:active {
+    color: black;
+    text-decoration: none;
+}
+
+.match_paged_list TH A:link {
+    color: black;
+    text-decoration: none;
+}
+
+.match_paged_list TH A:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+.match_paged_list TH.th_center{
+    text-align: center !important;
+}
+
+.match_paged_list TH.th_right{
+    text-align: right !important;
+}
+
+.match_paged_list TH.sort {
+    background-color: #707070;
+}
+
+.match_paged_list TD{
+    border: 1px solid black !important;
+    margin: 0 !important;
+    padding: 0 5px 0 5px !important;
+    text-align: left;
+    vertical-align: middle !important;
+}
+
+.match_paged_list TR.data_row:hover A{
+    color: white;
+}
+
+.match_paged_list TD.td_center{
+    text-align: center !important;
+}
+
+.match_paged_list TD.td_right{
+    text-align: right !important;
+}
+
+.match_paged_list TD.sort {
+    background-color: #A0A0A0;
+}
+
+.match_paged_list TD A:active {
+    color: black;
+    text-decoration: none;
+}
+
+.match_paged_list TD A:link {
+    color: black;
+    text-decoration: none;}
+
+.match_paged_list TD A:visited {
+    color: black;
+    text-decoration: none;}
+
+.match_paged_list TD A:focus {
+    color: black;
+    text-decoration: none;}
+
+.match_paged_list TD A:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.pager_container {
+    font-size: 12px;
+}
+
+.pager_container SPAN{
+    
+}
+
+.pager_container A{
+    
+}
+
+
+.error_container{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.error_header_container{
+    color: red;
+    font-weight: bold;
+}
+
+.error_header {
+    font-size: 14px;
+}
+
+.error_message {
+    font-size: 12px;
+    color: black;
+}
+
+.error_container A{
+    font-size: 10px;
+}
+.error_details{
+    height: 200px;
+    overflow: auto;
+}

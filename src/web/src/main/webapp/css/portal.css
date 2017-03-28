@@ -1,0 +1,273 @@
+@charset "utf-8";
+BODY {
+/*     background:transparent;  */
+    background-color: #10243f;
+    border:0; 
+    border-collapse:collapse;
+    color: black;
+    font-family:Tahoma,Geneva,"Helvetica CY","Nimbus Sans L",sans-serif; 
+    font-size:12px;
+    font-style:normal; 
+    font-weight:normal; 
+    margin:0; 
+    outline:0; 
+    padding:0; 
+    text-decoration:none;
+    text-align:left;
+    vertical-align:top;
+    width: 100%;
+    height: 100%;
+}
+
+/***************/
+/* PAGE LAYOUT */
+/***************/
+
+.page_container {
+    margin: 10px 50px 10px 50px;
+/*     width: 100%; */
+    height: 100%;
+}
+
+/* HEADER */
+.page_header {
+    padding: 0 0 0 0;
+/*     width: 100%; */
+    height: 130px;
+    text-align: left;
+    background-color: #10243f;
+    border: 1px solid black;
+}
+
+.page_header_img {
+    border: 0px;
+    width: 345px;
+    height: 130px;
+    /*345x130*/
+    
+}
+
+/* MENU */
+.page_menu {
+    border: solid black;
+    border-width: 0 1px 0 1px;
+    background-color: #10243f;
+    padding: 5px 0 0 0;
+    height: 21px;
+}
+
+.page_menu UL {
+    background-color: #10243f;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.page_menu UL LI {
+    border: solid black;
+    border-width: 1px 1px 1px 0;
+    display:inline;
+    padding: 5px;
+}
+
+.page_menu UL LI.first {
+/*     border-width: 1px 1px 1px 1px !important; */
+}
+
+.page_menu UL LI {
+    
+}
+
+.page_menu UL LI.active {
+    border: 1px solid white;
+    background-color: blue;
+}
+
+.page_menu UL LI:hover {
+    background-color: blue;
+}
+
+.page_menu UL LI A {
+    
+}
+.page_menu UL A:active {
+    color: white;
+    text-decoration: none;
+}
+
+.page_menu UL A:link {
+    color: white;
+    text-decoration: none;}
+
+.page_menu UL A:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.page_menu UL A:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.page_menu UL A:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* BODY */
+.page_body {
+    background-color: silver;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+/*     width: 100%; */
+/*     height: 70%; */
+    overflow: visible;
+}
+
+/* FOOTER */
+.page_footer {
+    background-color: silver;
+    border: solid black;
+    border-width: 0 1px 1px 1px;
+    font-size:10px;
+    height: 11px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+/*     width: 100%; */
+}
+
+/* EOF PAGE LAYOUT */
+
+/* COL Layout table*/
+.col_layout {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.col_layout TR {
+    
+}
+
+.col_layout TD {
+    padding: 0px 10px 10px 0px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Attribute container table*/
+.attr_table {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.attr_table TR {
+    
+}
+
+.attr_table TH {
+    background-color: grey;
+    font-weight: bold;
+    padding: 2px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.attr_table TH.borders {
+    border: 1px solid black;
+}
+
+.attr_table TH.sort {
+    background-color: #707070;
+}
+
+.attr_table TH A:active {
+    color: black;
+    text-decoration: none;
+}
+
+.attr_table TH A:link {
+    color: black;
+    text-decoration: none;
+}
+
+.attr_table TH A:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+.attr_table TD {
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.attr_table TD.th {
+    background-color: grey;
+    font-weight: bold;
+}
+
+.attr_table TD.borders {
+    border: 1px solid black;
+}
+
+.attr_table TD.sort {
+    background-color: #A0A0A0;
+}
+
+/* Blank table*/
+.blank_table {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.blank_table TR {
+    
+}
+
+.blank_table TD {
+    padding: 0;
+    text-align: left;
+}
+
+/************/
+/* MAIN PAGE*/
+/************/
+.table_title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table_title_normal {
+    font-size: 14px;
+}
+
+
+/* EOF MAIN PAGE*/
+
+/* map img preview */
+.map_img_preview_container{
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    background-color: silver;
+}
+
+.map_img_preview_container_hidden{
+    position: relative;
+    display: none;
+}
+
+
+.chart_container {
+/*     height: 300px; */
+    border: 1px solid black;
+    overflow-x: auto;
+    overflow-y: visible;
+}

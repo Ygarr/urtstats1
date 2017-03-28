@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>urt.stats</groupId>
+    <artifactId>main</artifactId>
+    <version>0.2.6-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>reports</artifactId>
+  <packaging>jar</packaging>
+
+  <name>UrbanTerrorStatsReports</name>
+  <description>UrbanTerrorStats reports module</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+      <plugin>
+         <groupId>org.codehaus.mojo</groupId>
+         <artifactId>jasperreports-maven-plugin</artifactId>
+         <version>1.0-beta-2</version>
+         <executions>
+           <execution>
+             <id>groovy_compiler</id>
+             <goals>
+               <goal>compile-reports</goal>
+             </goals>
+             <configuration>
+               <sourceDirectory>src/main/resources/design</sourceDirectory>
+               <outputDirectory>target/classes/compiled_reports</outputDirectory>
+               <compiler>net.sf.jasperreports.compilers.JRGroovyCompiler</compiler>
+             </configuration>
+           </execution>
+         </executions>
+         <dependencies>
+           <!--note this must be repeated here to pick up correct xml validation -->
+           <dependency>
+             <groupId>net.sf.jasperreports</groupId>
+             <artifactId>jasperreports</artifactId>
+             <version>${jasperreports.version}</version>
+           </dependency>
+           <dependency>
+             <groupId>org.eclipse.jdt</groupId>
+             <artifactId>core</artifactId>
+             <version>3.1.1</version>
+           </dependency>
+           <dependency>
+             <groupId>log4j</groupId>
+             <artifactId>log4j</artifactId>
+             <version>1.2.14</version>
+             <scope>compile</scope>
+           </dependency>
+           <dependency>
+             <groupId>commons-logging</groupId>
+             <artifactId>commons-logging</artifactId>
+             <version>1.1</version>
+           </dependency>
+           <dependency>
+             <groupId>org.codehaus.groovy</groupId>
+             <artifactId>groovy-all</artifactId>
+             <version>1.7.0</version>
+           </dependency>
+         </dependencies>
+       </plugin>
+    </plugins>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+        <excludes>
+          <exclude>design/**</exclude>
+        </excludes>
+      </resource>
+    </resources>
+  </build>
+
+  <dependencies>
+    <!-- Module dependencies -->
+
+    <!-- Project dependencies -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jasperreports</groupId>
+      <artifactId>jasperreports</artifactId>
+    </dependency>
+
+
+  </dependencies>
+</project>

@@ -1,0 +1,1346 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\3\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\ghost\g_followstrict\0\fraglimit\0\timelimit\0\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\5\g_bluewave\5\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871040\g_armbands\1\g_funstuff\1\g_skins\1\g_stamina\0\g_walljumps\3\g_deadchat\2\g_gear\0\g_maxGameClients\0\sv_dlURL\192.168.4.209\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_minRate\0\dmflags\0\version\ioQ3 1.35 urt 4.2.017 linux-i386 Dec 19 2013\protocol\68\mapname\ut4_paris_v2\sv_privateClients\0\bot_minplayers\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\1\auth\0\auth_status\off (local)\g_modversion\4.2.017\g_doWarmup\0
+  0:00 Warmup:
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\localhost\name\ghost\racered\3\raceblue\3\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\funred\patch\funblue\patch\cg_physics\1\g_gametype\3\gear\GaAOVWA\funfree\patch\racefree\2\cl_time\7#GzE@ThEH&#|yM>\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\15DDB74B19F30950707BB172445AA60A\weapmodes\00000110220000020000000
+  0:00 ClientUserinfoChanged: 0 n\ghost\t\2\r\3\tl\0\f0\patch\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientUserinfo: 0 \ip\localhost\name\ghost\racered\3\raceblue\3\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\funred\patch\funblue\patch\cg_physics\1\g_gametype\3\gear\GaAOVWA\funfree\patch\racefree\2\cl_time\TD7Y2VEh6y|abGL#\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\15DDB74B19F30950707BB172445AA60A\weapmodes\00000110220000020000000
+  0:00 ClientUserinfoChanged: 0 n\ghost\t\2\r\3\tl\0\f0\patch\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientSpawn: 0
+  0:00 ClientBegin: 0
+  3:46 Session data initialised for client on slot 0 at 5281754
+  3:46 ClientConnect: 1
+  3:46 ClientUserinfo: 1 \ip\192.168.4.175:27960\challenge\1176033976\qport\456\protocol\68\name\emir\rate\16000\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F
+  3:46 ClientUserinfoChanged: 1 n\emir\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  4:03 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+  4:03 ClientUserinfoChanged: 1 n\emir\t\3\r\1\tl\0\f0\ninja\f1\\f2\\a0\255\a1\255\a2\255
+  4:03 ClientBegin: 1
+  4:23 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+  4:23 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  4:23 ClientSpawn: 1
+  4:23 ClientBegin: 1
+  4:27 ------------------------------------------------------------
+  4:27 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\3\sv_maxclients\12\sv_floodprotect\0\capturelimit\0\sv_hostname\ghost\g_followstrict\0\fraglimit\0\timelimit\0\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\5\g_bluewave\5\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\536871040\g_armbands\1\g_funstuff\1\g_skins\1\g_stamina\0\g_walljumps\3\g_deadchat\2\g_gear\0\g_maxGameClients\0\sv_dlURL\192.168.4.209\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_minRate\0\dmflags\0\version\ioQ3 1.35 urt 4.2.017 linux-i386 Dec 19 2013\protocol\68\mapname\ut4_paris_v2\sv_privateClients\0\bot_minplayers\0\gamename\q3urt42\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\1\auth\0\auth_status\off (local)\g_modversion\4.2.017\g_doWarmup\0
+  4:27 ClientSpawn: 0
+  4:27 ClientSpawn: 1
+  4:41 Session data initialised for client on slot 0 at 5336946
+  4:41 ClientConnect: 2
+  4:41 ClientUserinfo: 2 \ip\192.168.4.41:27960\challenge\-1055168631\qport\19835\protocol\68\name\lis\rate\16000\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595
+  4:41 ClientUserinfoChanged: 2 n\lis\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  4:44 Hit: 0 1 3 17: emir hit ghost in the Torso
+  5:11 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+  5:11 ClientUserinfoChanged: 2 n\lis\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  5:11 ClientBegin: 2
+  5:13 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+  5:13 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  5:13 ClientSpawn: 2
+  5:13 ClientBegin: 2
+  5:17 Hit: 1 0 1 15: ghost hit emir in the Head
+  5:17 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  5:20 ClientSpawn: 1
+  5:24 Hit: 2 0 2 15: ghost hit lis in the Helmet
+  5:24 Hit: 2 0 2 15: ghost hit lis in the Helmet
+  5:24 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+  5:25 ClientSpawn: 2
+  5:25 Hit: 1 0 4 15: ghost hit emir in the Vest
+  5:25 Hit: 1 0 1 15: ghost hit emir in the Head
+  5:25 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  5:25 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+  5:25 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  5:27 Item: 0 ut_weapon_deagle
+  5:27 Item: 0 ut_weapon_deagle
+  5:30 ClientSpawn: 1
+  5:30 Item: 2 ut_weapon_deagle
+  5:31 Item: 0 ut_weapon_grenade_smoke
+  5:34 Item: 0 ut_weapon_ak103
+  5:34 Item: 0 ut_weapon_grenade_he
+  5:39 Hit: 0 1 3 17: emir hit ghost in the Torso
+  5:41 Hit: 0 2 3 15: lis hit ghost in the Torso
+  5:41 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  5:45 ClientSpawn: 0
+  5:46 Item: 1 ut_weapon_deagle
+  5:48 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+  5:48 Hit: 2 0 7 15: ghost hit lis in the Groin
+  5:49 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+  5:53 Hit: 0 2 7 15: lis hit ghost in the Groin
+  5:54 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+  5:54 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+  5:54 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+  5:54 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  5:55 ClientSpawn: 0
+  5:57 Hit: 2 0 3 15: ghost hit lis in the Torso
+  5:57 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+  5:57 Item: 0 ut_weapon_deagle
+  6:00 ClientSpawn: 2
+  6:23 Item: 2 ut_weapon_ak103
+  6:36 Hit: 2 0 3 15: ghost hit lis in the Torso
+  6:36 Hit: 2 0 2 15: ghost hit lis in the Helmet
+  6:36 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+  6:40 ClientSpawn: 2
+  6:49 Item: 1 ut_weapon_deagle
+  7:13 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+  7:14 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+  7:14 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  7:15 ClientSpawn: 0
+  7:15 Item: 2 ut_weapon_ak103
+  7:17 Item: 2 ut_weapon_deagle
+  7:37 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+  7:38 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+  7:39 Hit: 0 1 3 17: emir hit ghost in the Torso
+  7:39 Hit: 1 0 7 15: ghost hit emir in the Groin
+  7:39 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+  7:39 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  7:40 ClientSpawn: 1
+  7:41 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+  7:43 Hit: 0 2 2 15: lis hit ghost in the Helmet
+  7:43 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  7:43 Item: 2 ut_weapon_grenade_he
+  7:43 Item: 2 ut_weapon_deagle
+  7:43 Item: 2 ut_weapon_ak103
+  7:45 ClientSpawn: 0
+  7:46 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+  7:48 Item: 2 ut_weapon_deagle
+  7:50 ClientSpawn: 1
+  7:55 Hit: 1 0 1 15: ghost hit emir in the Head
+  7:55 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  7:56 Item: 0 ut_weapon_deagle
+  7:58 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+  7:58 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  8:00 ClientSpawn: 1
+  8:04 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+  8:06 Hit: 1 0 4 15: ghost hit emir in the Vest
+  8:07 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+  8:08 Hit: 1 0 1 15: ghost hit emir in the Head
+  8:08 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  8:08 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+  8:10 ClientSpawn: 1
+  8:11 Hit: 0 1 3 15: emir hit ghost in the Torso
+  8:12 Hit: 0 1 6 15: emir hit ghost in the Right Arm
+  8:12 Hit: 0 1 3 15: emir hit ghost in the Torso
+  8:12 Kill: 1 0 30: emir killed ghost by UT_MOD_AK103
+  8:13 Item: 1 ut_weapon_ak103
+  8:15 ClientSpawn: 0
+  8:22 Item: 1 ut_weapon_grenade_he
+  8:24 Item: 1 ut_weapon_ak103
+  8:29 Hit: 0 1 3 15: emir hit ghost in the Torso
+  8:30 Hit: 0 1 2 15: emir hit ghost in the Helmet
+  8:30 Kill: 1 0 30: emir killed ghost by UT_MOD_AK103
+  8:32 Item: 1 ut_weapon_deagle
+  8:34 Item: 1 ut_weapon_ak103
+  8:35 ClientSpawn: 0
+  8:49 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+  8:50 ClientSpawn: 1
+  8:56 Hit: 1 0 7 15: ghost hit emir in the Groin
+  8:56 Hit: 1 0 7 15: ghost hit emir in the Groin
+  8:56 Hit: 0 1 3 15: emir hit ghost in the Torso
+  8:57 Hit: 0 1 5 15: emir hit ghost in the Left Arm
+  8:57 Hit: 1 0 7 15: ghost hit emir in the Groin
+  8:57 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  9:00 ClientSpawn: 1
+  9:05 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:05 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  9:06 Item: 2 ut_weapon_deagle
+  9:06 Item: 2 ut_weapon_ak103
+  9:07 Item: 1 ut_weapon_ak103
+  9:07 Item: 1 ut_weapon_deagle
+  9:10 ClientSpawn: 0
+  9:17 Hit: 1 0 4 15: ghost hit emir in the Vest
+  9:18 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+  9:18 Hit: 1 0 4 15: ghost hit emir in the Vest
+  9:20 Hit: 1 0 7 15: ghost hit emir in the Groin
+  9:20 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+  9:21 Item: 2 ut_weapon_ak103
+  9:21 Item: 2 ut_weapon_deagle
+  9:25 ClientSpawn: 1
+  9:35 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+  9:37 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:37 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:37 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  9:40 ClientSpawn: 0
+  9:40 Item: 2 ut_weapon_ak103
+  9:40 Item: 2 ut_weapon_deagle
+  9:46 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:46 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:46 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+  9:48 Item: 2 ut_weapon_ak103
+  9:48 Item: 2 ut_weapon_grenade_he
+  9:48 Item: 2 ut_weapon_deagle
+  9:50 ClientSpawn: 0
+  9:54 Hit: 2 0 3 15: ghost hit lis in the Torso
+  9:54 Hit: 0 2 3 15: lis hit ghost in the Torso
+  9:54 Hit: 2 0 3 15: ghost hit lis in the Torso
+  9:54 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+  9:55 ClientSpawn: 2
+  9:56 Item: 0 ut_weapon_ak103
+  9:59 Item: 1 ut_weapon_grenade_he
+ 10:01 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 10:05 ClientSpawn: 1
+ 10:10 Hit: 1 0 1 15: ghost hit emir in the Head
+ 10:10 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 10:12 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 10:12 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 10:12 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 10:13 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 10:13 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 10:15 ClientSpawn: 1
+ 10:15 ClientSpawn: 2
+ 10:17 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 10:17 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 10:18 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWRA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 10:18 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 10:23 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 10:23 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 10:25 ClientSpawn: 0
+ 10:26 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 10:26 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 10:26 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 10:26 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 10:27 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 10:27 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 10:30 ClientSpawn: 0
+ 10:30 Item: 2 ut_weapon_deagle
+ 10:32 Item: 2 ut_weapon_ak103
+ 10:32 Item: 2 ut_weapon_grenade_he
+ 10:37 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 10:37 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 10:40 ClientSpawn: 2
+ 10:44 Item: 1 ut_weapon_deagle
+ 10:48 Item: 0 ut_weapon_deagle
+ 10:48 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 10:49 Hit: 1 2 1 15: lis hit emir in the Head
+ 10:49 Kill: 2 1 30: lis killed emir by UT_MOD_AK103
+ 10:49 Item: 0 ut_weapon_deagle
+ 10:50 ClientSpawn: 1
+ 10:50 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 10:50 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 10:50 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 10:52 Hit: 0 2 6 15: lis hit ghost in the Right Arm
+ 10:55 Item: 0 ut_weapon_deagle
+ 11:07 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 11:07 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 11:07 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 11:09 Item: 2 ut_weapon_deagle
+ 11:09 Item: 2 ut_weapon_ak103
+ 11:10 ClientSpawn: 0
+ 11:14 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 11:36 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 11:50 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 11:51 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 11:51 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 11:51 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 11:52 Item: 2 ut_weapon_ak103
+ 11:52 Item: 2 ut_weapon_deagle
+ 11:55 ClientSpawn: 0
+ 12:04 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 12:06 Hit: 2 0 11 15: ghost hit lis in the Left Lower Leg
+ 12:06 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 12:06 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 12:06 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 12:06 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 12:06 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 12:06 Item: 0 ut_weapon_deagle
+ 12:06 Item: 0 ut_weapon_ak103
+ 12:10 ClientSpawn: 2
+ 12:19 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 12:19 Hit: 1 0 1 15: ghost hit emir in the Head
+ 12:19 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 12:20 ClientSpawn: 1
+ 12:20 Item: 0 ut_weapon_deagle
+ 12:22 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 12:22 Hit: 1 0 1 15: ghost hit emir in the Head
+ 12:22 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 12:23 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 12:23 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 12:25 ClientSpawn: 1
+ 12:25 ClientSpawn: 0
+ 12:29 Item: 1 ut_weapon_deagle
+ 12:42 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 12:43 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 12:43 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 12:44 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 12:44 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 12:44 Hit: 1 2 7 15: lis hit emir in the Groin
+ 12:44 Hit: 2 1 9 17: emir hit lis in the Left Upper Leg
+ 12:44 Item: 2 ut_weapon_deagle
+ 12:45 Item: 2 ut_weapon_ak103
+ 12:45 ClientSpawn: 0
+ 12:48 Item: 2 ut_weapon_grenade_he
+ 12:49 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 12:49 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 12:50 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 12:51 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 12:51 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 12:51 Item: 1 ut_weapon_grenade_he
+ 12:51 Item: 1 ut_weapon_deagle
+ 12:55 ClientSpawn: 0
+ 13:14 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 13:15 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 13:15 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 13:16 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 13:16 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 13:16 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 13:16 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 13:16 Item: 0 ut_weapon_deagle
+ 13:16 Item: 0 ut_weapon_ak103
+ 13:20 ClientSpawn: 2
+ 13:20 Item: 0 ut_weapon_ak103
+ 13:31 Hit: 1 0 1 15: ghost hit emir in the Head
+ 13:31 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 13:35 ClientSpawn: 1
+ 13:39 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 13:39 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 13:40 ClientSpawn: 0
+ 13:41 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 13:43 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 13:44 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 13:44 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 13:45 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 13:45 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 13:45 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 13:48 Item: 2 ut_weapon_deagle
+ 13:49 Item: 2 ut_weapon_ak103
+ 13:50 ClientSpawn: 0
+ 14:01 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+ 14:01 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 14:05 ClientSpawn: 1
+ 14:11 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 14:13 Hit: 0 2 14 15: lis hit ghost in the Right Foot
+ 14:13 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 14:13 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 14:13 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 14:21 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 14:21 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 14:21 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 14:25 ClientSpawn: 0
+ 14:36 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 14:36 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 14:36 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 14:37 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 14:37 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 14:37 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 14:38 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 14:38 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 14:40 ClientSpawn: 1
+ 14:40 ClientSpawn: 2
+ 14:42 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 14:43 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 14:43 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 14:43 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 14:43 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 14:43 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 14:45 ClientSpawn: 0
+ 14:45 Item: 1 ut_weapon_deagle
+ 14:50 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 14:51 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 14:51 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 14:51 Item: 1 ut_weapon_negev
+ 14:52 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 14:52 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 14:52 Item: 1 ut_weapon_deagle
+ 14:53 Item: 1 ut_weapon_deagle
+ 14:55 ClientSpawn: 0
+ 15:00 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 15:00 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 15:05 ClientSpawn: 2
+ 15:05 Item: 0 ut_weapon_deagle
+ 15:13 Hit: 1 0 1 15: ghost hit emir in the Head
+ 15:13 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 15:15 ClientSpawn: 1
+ 15:21 Item: 2 ut_weapon_deagle
+ 15:21 Item: 2 ut_weapon_ak103
+ 15:38 Item: 1 ut_weapon_negev
+ 15:39 Item: 1 ut_weapon_deagle
+ 15:42 Hit: 1 0 14 15: ghost hit emir in the Right Foot
+ 15:47 Hit: 1 0 1 15: ghost hit emir in the Head
+ 15:47 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 15:47 Item: 0 ut_weapon_deagle
+ 15:50 ClientSpawn: 1
+ 15:52 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 15:52 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 16:03 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 16:04 Hit: 0 1 6 17: emir hit ghost in the Right Arm
+ 16:04 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 16:04 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 16:04 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 16:05 ClientSpawn: 0
+ 16:08 Item: 1 ut_weapon_deagle
+ 16:19 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 16:21 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 16:21 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 16:21 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 16:25 ClientSpawn: 0
+ 16:27 Item: 1 ut_weapon_grenade_he
+ 16:27 Item: 1 ut_weapon_deagle
+ 16:27 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 16:28 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 16:29 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 16:30 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 16:35 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 16:35 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 16:35 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 16:35 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 16:40 ClientSpawn: 0
+ 16:45 Hit: 0 2 8 15: lis hit ghost in the Butt
+ 16:47 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 16:47 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 16:47 Item: 0 ut_weapon_deagle
+ 16:47 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 16:50 ClientSpawn: 1
+ 16:50 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 16:50 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 16:55 ClientSpawn: 0
+ 17:02 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 17:02 Kill: 0 2 25: ghost killed lis by UT_MOD_HEGRENADE
+ 17:05 ClientSpawn: 1
+ 17:05 ClientSpawn: 2
+ 17:08 Item: 2 ut_weapon_deagle
+ 17:09 Item: 2 ut_weapon_ak103
+ 17:10 Item: 0 ut_weapon_deagle
+ 17:10 Item: 0 ut_weapon_ak103
+ 17:10 Item: 0 ut_weapon_deagle
+ 17:11 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 17:12 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 17:27 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 17:27 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 17:27 Item: 0 ut_weapon_grenade_he
+ 17:27 Item: 0 ut_weapon_deagle
+ 17:27 Item: 0 ut_weapon_ak103
+ 17:30 ClientSpawn: 2
+ 17:33 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+ 17:33 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 17:33 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 17:34 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 17:34 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 17:34 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 17:35 ClientSpawn: 0
+ 17:38 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAOWRA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 17:38 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 17:41 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 17:41 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 17:42 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 17:42 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 17:42 Item: 2 ut_weapon_deagle
+ 17:43 Item: 2 ut_weapon_ak103
+ 17:45 ClientSpawn: 0
+ 17:46 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 17:46 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 17:47 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 17:48 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 17:48 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 17:48 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 17:50 ClientSpawn: 2
+ 17:50 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 17:50 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 17:50 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 17:54 Item: 1 ut_weapon_grenade_he
+ 17:55 ClientSpawn: 0
+ 17:56 Item: 0 ut_weapon_ak103
+ 17:57 Item: 0 ut_weapon_deagle
+ 18:01 Item: 2 ut_weapon_deagle
+ 18:01 Hit: 0 1 6 17: emir hit ghost in the Right Arm
+ 18:02 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 18:02 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 18:02 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 18:04 Item: 0 ut_weapon_ak103
+ 18:04 Item: 0 ut_weapon_deagle
+ 18:04 Item: 0 ut_weapon_grenade_he
+ 18:05 ClientSpawn: 1
+ 18:06 Hit: 0 2 10 17: lis hit ghost in the Right Upper Leg
+ 18:11 Item: 1 ut_weapon_negev
+ 18:14 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 18:14 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 18:14 Item: 2 ut_weapon_grenade_he
+ 18:15 ClientSpawn: 0
+ 18:16 Item: 2 ut_weapon_deagle
+ 18:22 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 18:26 Hit: 0 2 9 17: lis hit ghost in the Left Upper Leg
+ 18:26 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 18:26 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 18:28 Item: 0 ut_weapon_deagle
+ 18:30 ClientSpawn: 2
+ 18:31 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 18:32 Hit: 0 1 6 17: emir hit ghost in the Right Arm
+ 18:32 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 18:32 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 18:32 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 18:32 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 18:32 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 18:35 ClientSpawn: 1
+ 18:38 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 18:38 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 18:40 ClientSpawn: 0
+ 18:44 Item: 2 ut_weapon_deagle
+ 18:44 Item: 2 ut_weapon_grenade_he
+ 18:48 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 18:48 Item: 1 ut_weapon_deagle
+ 18:48 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 18:48 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 18:48 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 18:49 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 18:49 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 18:49 Item: 2 ut_weapon_grenade_he
+ 18:49 Item: 2 ut_weapon_deagle
+ 18:50 ClientSpawn: 0
+ 18:59 Item: 1 ut_weapon_negev
+ 19:00 Hit: 0 2 14 17: lis hit ghost in the Right Foot
+ 19:00 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 19:00 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 19:01 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 19:13 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 19:14 Hit: 0 2 9 17: lis hit ghost in the Left Upper Leg
+ 19:14 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 19:14 Item: 2 ut_weapon_deagle
+ 19:15 ClientSpawn: 0
+ 19:21 Item: 0 ut_weapon_ak103
+ 19:40 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 19:40 Hit: 0 2 7 17: lis hit ghost in the Groin
+ 19:40 Hit: 0 2 7 17: lis hit ghost in the Groin
+ 19:41 Hit: 0 2 11 17: lis hit ghost in the Left Lower Leg
+ 19:41 Hit: 0 2 11 17: lis hit ghost in the Left Lower Leg
+ 19:41 Hit: 0 2 10 17: lis hit ghost in the Right Upper Leg
+ 19:41 Kill: 2 0 23: lis killed ghost by UT_MOD_BLED
+ 19:45 ClientSpawn: 0
+ 19:52 Hit: 0 2 2 17: lis hit ghost in the Helmet
+ 19:58 Item: 1 ut_weapon_grenade_he
+ 20:01 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 20:03 Hit: 1 0 12 15: ghost hit emir in the Right Lower Leg
+ 20:03 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 20:04 Hit: 0 2 2 17: lis hit ghost in the Helmet
+ 20:05 Kill: 2 0 23: lis killed ghost by UT_MOD_BLED
+ 20:10 ClientSpawn: 0
+ 20:11 Item: 0 ut_weapon_deagle
+ 20:12 Hit: 0 2 9 17: lis hit ghost in the Left Upper Leg
+ 20:12 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 20:12 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 20:12 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 20:15 ClientSpawn: 2
+ 20:18 Item: 1 ut_weapon_deagle
+ 20:37 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 20:38 Hit: 0 2 6 17: lis hit ghost in the Right Arm
+ 20:38 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 20:38 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 20:39 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 20:39 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 20:39 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 20:40 ClientSpawn: 2
+ 20:40 ClientSpawn: 0
+ 20:44 Item: 1 ut_weapon_deagle
+ 20:44 Item: 1 ut_weapon_negev
+ 20:45 Item: 1 ut_weapon_grenade_he
+ 20:53 Kill: 0 2 25: ghost killed lis by UT_MOD_HEGRENADE
+ 20:53 Kill: 2 0 25: lis killed ghost by UT_MOD_HEGRENADE
+ 20:55 ClientSpawn: 2
+ 20:55 ClientSpawn: 0
+ 20:57 Item: 1 ut_weapon_deagle
+ 20:57 Item: 1 ut_weapon_grenade_he
+ 21:01 Item: 2 ut_weapon_negev
+ 21:02 Item: 0 ut_weapon_ak103
+ 21:02 Hit: 1 0 1 15: ghost hit emir in the Head
+ 21:02 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 21:03 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 21:03 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 21:04 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 21:04 Hit: 0 2 6 17: lis hit ghost in the Right Arm
+ 21:04 Hit: 0 2 9 17: lis hit ghost in the Left Upper Leg
+ 21:04 Hit: 0 2 2 17: lis hit ghost in the Helmet
+ 21:04 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 21:04 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 21:05 ClientSpawn: 2
+ 21:05 ClientSpawn: 1
+ 21:05 Item: 0 ut_weapon_deagle
+ 21:16 Hit: 0 2 13 17: lis hit ghost in the Left Foot
+ 21:16 Hit: 0 2 10 17: lis hit ghost in the Right Upper Leg
+ 21:16 Hit: 0 2 8 17: lis hit ghost in the Butt
+ 21:16 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 21:17 Item: 2 ut_weapon_deagle
+ 21:18 Item: 2 ut_weapon_negev
+ 21:18 Item: 2 ut_weapon_negev
+ 21:20 ClientSpawn: 0
+ 21:23 Item: 2 ut_weapon_deagle
+ 21:26 Kill: 0 2 25: ghost killed lis by UT_MOD_HEGRENADE
+ 21:30 ClientSpawn: 2
+ 21:34 Item: 2 ut_weapon_negev
+ 21:34 Item: 2 ut_weapon_deagle
+ 21:38 Hit: 2 1 5 17: emir hit lis in the Left Arm
+ 21:42 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 21:51 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 21:51 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 21:51 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 21:52 Hit: 1 2 11 17: lis hit emir in the Left Lower Leg
+ 21:52 Hit: 1 0 1 15: ghost hit emir in the Head
+ 21:52 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 21:52 Item: 0 ut_weapon_deagle
+ 21:52 Hit: 0 2 9 17: lis hit ghost in the Left Upper Leg
+ 21:55 ClientSpawn: 1
+ 22:04 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 22:05 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 22:05 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 22:05 Item: 2 ut_weapon_deagle
+ 22:08 Hit: 2 1 10 17: emir hit lis in the Right Upper Leg
+ 22:08 Hit: 2 1 9 17: emir hit lis in the Left Upper Leg
+ 22:10 ClientSpawn: 0
+ 22:16 Item: 1 ut_weapon_negev
+ 22:24 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 22:24 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 22:25 Hit: 1 0 1 15: ghost hit emir in the Head
+ 22:25 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 22:30 ClientSpawn: 1
+ 22:39 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 22:39 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 22:40 ClientSpawn: 2
+ 22:45 Hit: 1 0 1 15: ghost hit emir in the Head
+ 22:45 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 22:50 ClientSpawn: 1
+ 22:54 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 22:54 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 22:54 Hit: 0 2 7 17: lis hit ghost in the Groin
+ 22:54 Hit: 2 0 4 15: ghost hit lis in the Vest
+ 22:54 Hit: 0 2 3 17: lis hit ghost in the Torso
+ 22:54 Kill: 2 0 36: lis killed ghost by UT_MOD_NEGEV
+ 22:55 ClientSpawn: 0
+ 22:55 Item: 2 ut_weapon_deagle
+ 22:56 Item: 2 ut_weapon_grenade_he
+ 23:03 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 23:03 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 23:05 ClientSpawn: 2
+ 23:09 Item: 0 ut_weapon_ak103
+ 23:10 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWRA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 23:10 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 23:15 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 23:15 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 23:23 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 23:23 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 23:23 Hit: 0 2 2 15: lis hit ghost in the Helmet
+ 23:23 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 23:24 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 23:24 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 23:24 Item: 0 ut_weapon_grenade_he
+ 23:24 Item: 0 ut_weapon_deagle
+ 23:24 Item: 0 ut_weapon_ak103
+ 23:25 ClientSpawn: 2
+ 23:39 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 23:39 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 23:39 Item: 1 ut_weapon_deagle
+ 23:40 ClientSpawn: 0
+ 23:44 Item: 2 ut_weapon_ak103
+ 23:51 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 23:51 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 23:51 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 23:52 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 23:52 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 23:55 ClientSpawn: 0
+ 23:57 Item: 1 ut_weapon_grenade_he
+ 23:57 Kill: 2 1 25: lis killed emir by UT_MOD_HEGRENADE
+ 24:00 ClientSpawn: 1
+ 24:08 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 24:08 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 24:08 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 24:08 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 24:09 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 24:09 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 24:10 ClientSpawn: 2
+ 24:11 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 24:11 Hit: 0 2 8 15: lis hit ghost in the Butt
+ 24:11 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 24:12 Item: 2 ut_weapon_ak103
+ 24:15 ClientSpawn: 0
+ 24:24 Item: 1 ut_weapon_deagle
+ 24:26 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 24:26 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 24:26 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 24:27 Item: 1 ut_weapon_deagle
+ 24:30 ClientSpawn: 2
+ 24:36 Hit: 2 0 12 15: ghost hit lis in the Right Lower Leg
+ 24:37 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 24:38 Hit: 0 2 6 15: lis hit ghost in the Right Arm
+ 24:45 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 24:46 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 24:47 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 24:47 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 24:50 ClientSpawn: 1
+ 24:50 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 24:50 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 24:51 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 24:51 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 24:51 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 24:53 Item: 2 ut_weapon_ak103
+ 24:55 ClientSpawn: 0
+ 24:57 Item: 1 ut_weapon_deagle
+ 25:01 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 25:04 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 25:04 Hit: 0 1 7 15: emir hit ghost in the Groin
+ 25:04 Hit: 0 2 2 15: lis hit ghost in the Helmet
+ 25:04 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 25:05 ClientSpawn: 0
+ 25:13 Item: 1 ut_weapon_ak103
+ 25:13 Item: 1 ut_weapon_deagle
+ 25:16 Hit: 0 1 8 15: emir hit ghost in the Butt
+ 25:18 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 25:18 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 25:18 Hit: 1 0 12 15: ghost hit emir in the Right Lower Leg
+ 25:18 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 25:18 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 25:20 ClientSpawn: 0
+ 25:21 Item: 1 ut_weapon_grenade_he
+ 25:22 Hit: 1 0 1 15: ghost hit emir in the Head
+ 25:22 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 25:24 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 25:25 ClientSpawn: 1
+ 25:25 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 25:26 Hit: 0 2 13 15: lis hit ghost in the Left Foot
+ 25:26 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 25:27 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 25:27 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 25:29 Hit: 0 1 6 15: emir hit ghost in the Right Arm
+ 25:29 Kill: 1 0 30: emir killed ghost by UT_MOD_AK103
+ 25:30 ClientSpawn: 2
+ 25:30 ClientSpawn: 0
+ 25:44 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 25:45 ClientSpawn: 1
+ 25:48 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GMAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 25:48 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 25:48 Hit: 2 0 12 15: ghost hit lis in the Right Lower Leg
+ 25:49 Hit: 2 0 11 15: ghost hit lis in the Left Lower Leg
+ 25:49 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 25:50 ClientSpawn: 2
+ 25:51 Item: 0 ut_weapon_grenade_he
+ 25:51 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 25:51 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 25:52 Item: 0 ut_weapon_deagle
+ 25:53 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 25:54 Item: 1 ut_weapon_deagle
+ 25:56 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 25:57 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 25:57 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 25:57 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 25:59 Item: 2 ut_weapon_ak103
+ 26:00 ClientSpawn: 0
+ 26:24 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 26:24 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 26:24 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 26:25 ClientSpawn: 0
+ 26:27 Item: 2 ut_weapon_ak103
+ 26:27 Item: 2 ut_weapon_deagle
+ 26:33 Hit: 2 0 9 15: ghost hit lis in the Left Upper Leg
+ 26:33 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 26:33 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 26:35 ClientSpawn: 2
+ 26:36 Item: 0 ut_weapon_deagle
+ 26:36 Item: 0 ut_weapon_ak103
+ 26:36 Item: 0 ut_weapon_grenade_he
+ 26:42 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 26:43 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 26:43 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 26:44 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 26:44 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 26:44 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 26:44 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 26:45 ClientSpawn: 0
+ 26:46 Item: 2 ut_weapon_deagle
+ 26:46 Item: 2 ut_weapon_ak103
+ 26:48 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 26:48 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 26:48 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 26:49 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 26:49 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 26:49 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 26:50 ClientSpawn: 0
+ 26:52 Item: 1 ut_weapon_grenade_he
+ 26:52 Item: 1 ut_weapon_deagle
+ 27:06 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 27:06 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 27:09 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 27:09 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 27:09 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 27:09 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 27:09 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 27:09 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 27:10 ClientSpawn: 2
+ 27:10 ClientSpawn: 0
+ 27:12 Item: 1 ut_weapon_grenade_he
+ 27:19 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 27:20 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 27:23 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 27:23 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 27:25 ClientSpawn: 1
+ 27:33 Item: 1 ut_weapon_negev
+ 27:34 Item: 1 ut_weapon_deagle
+ 27:37 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 27:37 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 27:37 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 27:38 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 27:38 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 27:38 Item: 0 ut_weapon_deagle
+ 27:40 ClientSpawn: 1
+ 27:46 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 27:46 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 27:50 ClientSpawn: 0
+ 27:56 Hit: 0 2 6 15: lis hit ghost in the Right Arm
+ 27:56 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 27:57 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 27:57 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 27:57 Kill: 1 0 23: emir killed ghost by UT_MOD_BLED
+ 28:00 ClientSpawn: 0
+ 28:06 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 28:07 Hit: 1 0 1 15: ghost hit emir in the Head
+ 28:07 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 28:08 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 28:08 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 28:10 ClientSpawn: 2
+ 28:10 ClientSpawn: 1
+ 28:25 Hit: 0 1 12 17: emir hit ghost in the Right Lower Leg
+ 28:25 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 28:26 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 28:28 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 28:29 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 28:29 Hit: 0 1 6 17: emir hit ghost in the Right Arm
+ 28:29 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 28:29 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 28:29 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 28:29 Item: 0 ut_weapon_deagle
+ 28:30 ClientSpawn: 1
+ 28:30 Kill: 1 0 25: emir killed ghost by UT_MOD_HEGRENADE
+ 28:35 ClientSpawn: 0
+ 28:44 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 28:44 Hit: 0 2 2 15: lis hit ghost in the Helmet
+ 28:45 Hit: 0 2 12 15: lis hit ghost in the Right Lower Leg
+ 28:45 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 28:50 ClientSpawn: 0
+ 29:01 Hit: 2 0 11 15: ghost hit lis in the Left Lower Leg
+ 29:01 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 29:01 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 29:01 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 29:01 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 29:01 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 29:01 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 29:01 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 29:02 Kill: 0 2 25: ghost killed lis by UT_MOD_HEGRENADE
+ 29:05 ClientSpawn: 0
+ 29:05 ClientSpawn: 2
+ 29:06 Item: 0 ut_weapon_deagle
+ 29:06 Item: 0 ut_weapon_ak103
+ 29:07 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 29:07 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 29:07 Hit: 1 0 1 15: ghost hit emir in the Head
+ 29:07 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 29:09 Hit: 0 2 12 15: lis hit ghost in the Right Lower Leg
+ 29:09 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 29:09 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 29:09 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 29:09 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 29:10 ClientSpawn: 1
+ 29:10 ClientSpawn: 0
+ 29:10 Item: 2 ut_weapon_deagle
+ 29:10 Item: 2 ut_weapon_ak103
+ 29:18 Hit: 0 1 12 17: emir hit ghost in the Right Lower Leg
+ 29:18 Hit: 0 1 8 17: emir hit ghost in the Butt
+ 29:18 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 29:26 Hit: 2 0 14 15: ghost hit lis in the Right Foot
+ 29:27 Item: 1 ut_weapon_deagle
+ 29:29 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 29:30 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 29:30 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 29:32 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 29:32 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 29:35 ClientSpawn: 0
+ 29:38 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+ 29:39 Item: 1 ut_weapon_deagle
+ 29:46 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 29:48 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 29:50 Hit: 0 1 3 3: emir hit ghost in the Torso
+ 29:50 Kill: 1 0 15: emir killed ghost by UT_MOD_DEAGLE
+ 29:52 Item: 1 ut_weapon_deagle
+ 29:53 Item: 1 ut_weapon_grenade_he
+ 29:55 ClientSpawn: 0
+ 29:59 Item: 2 ut_weapon_ak103
+ 30:10 Hit: 0 2 2 15: lis hit ghost in the Helmet
+ 30:10 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 30:11 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 30:11 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 30:11 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 30:15 ClientSpawn: 0
+ 30:21 Item: 1 ut_weapon_deagle
+ 30:21 Item: 1 ut_weapon_grenade_he
+ 30:23 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 30:23 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 30:23 Item: 0 ut_weapon_ak103
+ 30:25 ClientSpawn: 2
+ 30:25 Item: 0 ut_weapon_deagle
+ 30:29 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 30:29 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 30:29 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 30:29 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 30:29 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 30:29 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 30:29 Item: 2 ut_weapon_deagle
+ 30:29 Item: 2 ut_weapon_ak103
+ 30:30 ClientSpawn: 0
+ 30:34 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 30:34 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 30:35 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 30:35 Hit: 0 1 13 17: emir hit ghost in the Left Foot
+ 30:51 Hit: 1 0 1 15: ghost hit emir in the Head
+ 30:51 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 30:55 ClientSpawn: 1
+ 30:55 Item: 0 ut_weapon_deagle
+ 31:07 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 31:07 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 31:10 ClientSpawn: 2
+ 31:14 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 31:15 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 31:15 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 31:15 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 31:19 Item: 2 ut_weapon_ak103
+ 31:20 ClientSpawn: 0
+ 31:20 Item: 2 ut_weapon_deagle
+ 31:21 Kill: 1 2 25: emir killed lis by UT_MOD_HEGRENADE
+ 31:25 ClientSpawn: 2
+ 31:26 Item: 0 ut_weapon_grenade_he
+ 31:28 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 31:29 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 31:29 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 31:30 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 31:30 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 31:35 ClientSpawn: 0
+ 31:42 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 31:42 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 31:44 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 31:44 Hit: 0 2 7 15: lis hit ghost in the Groin
+ 31:45 ClientSpawn: 1
+ 31:45 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 31:45 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 31:45 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 31:45 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 31:50 ClientSpawn: 0
+ 31:53 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 31:54 Hit: 0 1 3 15: emir hit ghost in the Torso
+ 31:54 Kill: 1 0 30: emir killed ghost by UT_MOD_AK103
+ 31:55 ClientSpawn: 0
+ 31:57 Item: 1 ut_weapon_grenade_he
+ 32:04 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 32:04 Hit: 1 0 12 15: ghost hit emir in the Right Lower Leg
+ 32:05 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 32:05 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 32:05 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 32:06 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 32:06 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 32:07 Item: 2 ut_weapon_grenade_he
+ 32:07 Item: 2 ut_weapon_deagle
+ 32:07 Item: 2 ut_weapon_ak103
+ 32:09 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAORTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 32:09 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 32:10 ClientSpawn: 0
+ 32:10 ClientSpawn: 1
+ 32:19 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 32:21 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 32:24 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 32:25 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 32:25 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 32:26 Item: 2 ut_weapon_grenade_he
+ 32:26 Item: 2 ut_weapon_deagle
+ 32:30 ClientSpawn: 0
+ 32:34 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 32:39 Hit: 0 1 8 17: emir hit ghost in the Butt
+ 32:42 Hit: 2 0 2 15: ghost hit lis in the Helmet
+ 32:42 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 32:43 Item: 0 ut_weapon_ak103
+ 32:45 ClientSpawn: 2
+ 32:45 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 32:45 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 32:45 Item: 1 ut_weapon_deagle
+ 32:50 ClientSpawn: 0
+ 32:53 Hit: 0 1 8 17: emir hit ghost in the Butt
+ 32:53 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 32:53 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 32:53 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 32:54 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 32:55 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 32:55 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 33:00 ClientSpawn: 1
+ 33:06 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 33:06 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 33:08 Item: 2 ut_weapon_ak103
+ 33:08 Item: 2 ut_weapon_deagle
+ 33:10 ClientSpawn: 0
+ 33:11 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 33:12 Hit: 2 0 5 15: ghost hit lis in the Left Arm
+ 33:12 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 33:12 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 33:12 Item: 0 ut_weapon_deagle
+ 33:12 Item: 0 ut_weapon_ak103
+ 33:15 ClientSpawn: 2
+ 33:30 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 33:31 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 33:33 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 33:33 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 33:34 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 33:34 Hit: 1 0 1 3: ghost hit emir in the Head
+ 33:34 Kill: 0 1 15: ghost killed emir by UT_MOD_DEAGLE
+ 33:34 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 33:35 ClientSpawn: 1
+ 33:35 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 33:35 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 33:40 ClientSpawn: 0
+ 33:46 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 33:46 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 33:46 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 33:47 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 33:47 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 33:47 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 33:50 ClientSpawn: 1
+ 33:50 ClientSpawn: 0
+ 34:13 Item: 2 ut_weapon_deagle
+ 34:13 Item: 2 ut_weapon_ak103
+ 34:16 Item: 2 ut_weapon_grenade_he
+ 34:16 Item: 2 ut_weapon_deagle
+ 34:18 Hit: 0 2 10 15: lis hit ghost in the Right Upper Leg
+ 34:18 Hit: 2 0 13 15: ghost hit lis in the Left Foot
+ 34:18 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 34:19 Hit: 2 0 7 15: ghost hit lis in the Groin
+ 34:19 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 34:19 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 34:19 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 34:20 ClientSpawn: 2
+ 34:21 Item: 0 ut_weapon_ak103
+ 34:28 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 34:28 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 34:28 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 34:30 ClientSpawn: 0
+ 34:30 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 34:31 Item: 2 ut_weapon_deagle
+ 34:31 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 34:31 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 34:31 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 34:31 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 34:31 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 34:31 Item: 1 ut_weapon_grenade_he
+ 34:31 Item: 1 ut_weapon_deagle
+ 34:35 ClientSpawn: 0
+ 34:36 Hit: 0 2 5 15: lis hit ghost in the Left Arm
+ 34:39 Hit: 0 1 12 17: emir hit ghost in the Right Lower Leg
+ 34:40 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 34:40 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 34:40 Item: 2 ut_weapon_grenade_he
+ 34:47 Item: 0 ut_weapon_ak103
+ 34:47 Item: 0 ut_weapon_deagle
+ 35:11 Hit: 2 0 6 15: ghost hit lis in the Right Arm
+ 35:11 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 35:12 Hit: 2 0 10 15: ghost hit lis in the Right Upper Leg
+ 35:12 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 35:12 Kill: 2 0 30: lis killed ghost by UT_MOD_AK103
+ 35:14 Kill: 0 2 23: ghost killed lis by UT_MOD_BLED
+ 35:15 ClientSpawn: 2
+ 35:15 ClientSpawn: 0
+ 35:20 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 35:20 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 35:20 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 35:20 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 35:20 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 35:25 ClientSpawn: 0
+ 35:30 Hit: 0 2 2 15: lis hit ghost in the Helmet
+ 35:35 Hit: 2 1 3 17: emir hit lis in the Torso
+ 35:40 Item: 1 ut_weapon_deagle
+ 35:41 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 35:41 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 35:41 Hit: 0 2 11 15: lis hit ghost in the Left Lower Leg
+ 35:41 Kill: 2 0 23: lis killed ghost by UT_MOD_BLED
+ 35:45 ClientSpawn: 0
+ 36:02 Item: 2 ut_weapon_grenade_he
+ 36:02 Item: 2 ut_weapon_ak103
+ 36:08 Item: 2 ut_weapon_deagle
+ 36:10 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 36:10 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 36:17 Hit: 1 0 14 15: ghost hit emir in the Right Foot
+ 36:18 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 36:20 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 36:20 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 36:25 ClientSpawn: 1
+ 36:28 Hit: 0 2 6 15: lis hit ghost in the Right Arm
+ 36:29 Hit: 0 2 9 15: lis hit ghost in the Left Upper Leg
+ 36:29 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 36:29 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 36:30 ClientSpawn: 0
+ 36:30 Item: 2 ut_weapon_ak103
+ 36:30 Item: 2 ut_weapon_deagle
+ 36:32 Kill: 0 2 25: ghost killed lis by UT_MOD_HEGRENADE
+ 36:35 ClientSpawn: 2
+ 36:39 Item: 2 ut_weapon_ak103
+ 36:41 Hit: 0 2 3 15: lis hit ghost in the Torso
+ 36:42 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 36:42 Hit: 2 0 3 15: ghost hit lis in the Torso
+ 36:42 Kill: 0 2 30: ghost killed lis by UT_MOD_AK103
+ 36:45 ClientSpawn: 2
+ 36:56 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 36:56 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 36:57 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 36:57 Hit: 1 0 11 15: ghost hit emir in the Left Lower Leg
+ 36:58 Kill: 1 0 23: emir killed ghost by UT_MOD_BLED
+ 36:58 Item: 1 ut_weapon_deagle
+ 36:58 Item: 1 ut_weapon_grenade_he
+ 37:00 ClientSpawn: 0
+ 37:01 Kill: 2 2 10: lis killed lis by MOD_CHANGE_TEAM
+ 37:01 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 37:01 ClientUserinfoChanged: 2 n\lis\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 37:01 ClientBegin: 2
+ 37:02 Item: 1 ut_weapon_deagle
+ 37:06 Item: 1 ut_weapon_grenade_he
+ 37:11 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 37:12 Hit: 1 0 1 15: ghost hit emir in the Head
+ 37:12 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 37:13 Item: 0 ut_weapon_deagle
+ 37:15 ClientSpawn: 1
+ 37:25 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 37:26 Item: 0 ut_weapon_ak103
+ 37:26 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 37:26 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 37:26 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 37:27 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 37:27 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 37:27 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 37:27 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 37:30 ClientSpawn: 0
+ 37:37 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 37:39 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 37:39 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 37:40 Item: 0 ut_weapon_deagle
+ 37:40 ClientSpawn: 1
+ 37:54 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 37:54 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 37:54 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 37:55 ClientSpawn: 0
+ 38:18 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 38:18 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 38:18 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 38:19 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 38:19 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 38:20 ClientSpawn: 0
+ 39:17 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:17 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:17 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 39:20 ClientSpawn: 1
+ 39:32 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:32 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 39:32 Hit: 1 0 1 15: ghost hit emir in the Head
+ 39:32 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 39:35 ClientSpawn: 1
+ 39:52 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:53 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:54 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 39:54 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 39:55 ClientSpawn: 1
+ 39:59 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 39:59 Hit: 0 1 14 17: emir hit ghost in the Right Foot
+ 40:06 Hit: 1 0 1 15: ghost hit emir in the Head
+ 40:06 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 40:10 ClientSpawn: 1
+ 40:23 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 40:23 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 40:23 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 40:25 ClientSpawn: 1
+ 40:27 Item: 1 ut_weapon_deagle
+ 40:27 Item: 1 ut_weapon_negev
+ 40:30 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 40:34 Hit: 1 0 11 15: ghost hit emir in the Left Lower Leg
+ 40:34 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 40:34 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 40:35 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 40:35 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 40:35 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 40:40 ClientSpawn: 0
+ 40:46 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 40:46 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 40:51 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 40:51 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 40:55 ClientSpawn: 1
+ 40:58 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 40:58 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 40:58 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 40:58 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 41:00 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 41:02 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 41:02 Hit: 0 1 13 17: emir hit ghost in the Left Foot
+ 41:02 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 41:05 ClientSpawn: 0
+ 41:07 Item: 0 ut_weapon_deagle
+ 41:58 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 41:58 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 41:59 Item: 0 ut_weapon_deagle
+ 42:00 ClientSpawn: 1
+ 42:12 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 42:12 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:12 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 42:12 Hit: 1 0 1 15: ghost hit emir in the Head
+ 42:12 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 42:12 Item: 0 ut_weapon_grenade_smoke
+ 42:15 ClientSpawn: 1
+ 42:17 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 42:17 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 42:27 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:33 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:33 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 42:33 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 42:35 ClientSpawn: 1
+ 42:37 Item: 0 ut_weapon_ak103
+ 42:57 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:57 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:58 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 42:58 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 43:00 ClientSpawn: 1
+ 43:00 Item: 0 ut_weapon_ak103
+ 43:22 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 43:25 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 43:26 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 43:26 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 43:27 Item: 0 ut_weapon_ak103
+ 43:27 Item: 0 ut_weapon_deagle
+ 43:29 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GcAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 43:29 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 43:30 ClientSpawn: 1
+ 43:43 Hit: 1 0 8 15: ghost hit emir in the Butt
+ 43:48 Hit: 1 0 14 15: ghost hit emir in the Right Foot
+ 43:48 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 43:49 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 43:49 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 43:49 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 43:49 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 43:50 ClientSpawn: 0
+ 43:52 Kill: 0 1 23: ghost killed emir by UT_MOD_BLED
+ 43:55 ClientSpawn: 1
+ 43:56 Item: 0 ut_weapon_deagle
+ 43:56 Item: 0 ut_weapon_ak103
+ 43:56 Item: 0 ut_weapon_deagle
+ 43:57 Item: 0 ut_weapon_grenade_smoke
+ 44:23 Hit: 1 0 1 15: ghost hit emir in the Head
+ 44:23 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 44:24 Item: 0 ut_weapon_deagle
+ 44:25 ClientSpawn: 1
+ 44:36 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 44:36 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 44:50 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 44:50 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 44:50 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 44:51 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 44:51 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 44:55 ClientSpawn: 1
+ 45:13 Hit: 0 1 6 17: emir hit ghost in the Right Arm
+ 45:19 Hit: 1 0 5 15: ghost hit emir in the Left Arm
+ 45:19 Hit: 1 0 8 15: ghost hit emir in the Butt
+ 45:27 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:27 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 45:27 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 45:27 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:27 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 45:27 Item: 0 ut_weapon_deagle
+ 45:29 Kill: 1 0 23: emir killed ghost by UT_MOD_BLED
+ 45:30 ClientSpawn: 1
+ 45:30 ClientSpawn: 0
+ 45:35 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:35 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:35 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 45:35 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 45:40 ClientSpawn: 1
+ 45:57 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:57 Hit: 1 0 8 15: ghost hit emir in the Butt
+ 45:57 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 45:57 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 46:00 ClientSpawn: 1
+ 46:16 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 46:17 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 46:21 Item: 0 ut_weapon_deagle
+ 46:22 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 46:23 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 46:24 Hit: 0 1 2 17: emir hit ghost in the Helmet
+ 46:24 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 46:25 ClientSpawn: 0
+ 46:36 Item: 0 ut_weapon_deagle
+ 46:37 Item: 0 ut_weapon_ak103
+ 46:38 Hit: 0 1 11 17: emir hit ghost in the Left Lower Leg
+ 46:38 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 46:38 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 46:38 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 46:38 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 46:38 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 46:38 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 46:40 ClientSpawn: 0
+ 46:40 Item: 1 ut_weapon_deagle
+ 46:44 Item: 1 ut_weapon_grenade_he
+ 46:53 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 46:53 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 46:53 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 46:53 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 46:55 ClientSpawn: 1
+ 47:10 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 47:10 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+ 47:10 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 47:10 Hit: 1 0 8 15: ghost hit emir in the Butt
+ 47:10 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 47:14 Item: 0 ut_weapon_grenade_smoke
+ 47:15 ClientSpawn: 1
+ 47:24 Item: 1 ut_weapon_negev
+ 47:45 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 47:46 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 47:46 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 47:46 Hit: 0 1 5 17: emir hit ghost in the Left Arm
+ 47:46 Kill: 1 0 36: emir killed ghost by UT_MOD_NEGEV
+ 47:47 Item: 1 ut_weapon_deagle
+ 47:50 ClientSpawn: 0
+ 47:55 Hit: 0 1 12 17: emir hit ghost in the Right Lower Leg
+ 47:56 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 47:56 Hit: 0 1 12 17: emir hit ghost in the Right Lower Leg
+ 47:56 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 47:57 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 47:57 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 47:57 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 47:57 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 47:57 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 47:59 Kill: 1 0 23: emir killed ghost by UT_MOD_BLED
+ 48:00 ClientSpawn: 1
+ 48:00 ClientSpawn: 0
+ 48:08 Item: 0 ut_weapon_deagle
+ 48:08 Item: 0 ut_weapon_grenade_he
+ 48:13 Kill: 0 1 25: ghost killed emir by UT_MOD_HEGRENADE
+ 48:15 ClientSpawn: 1
+ 48:16 Item: 0 ut_weapon_deagle
+ 48:31 Hit: 1 0 1 15: ghost hit emir in the Head
+ 48:31 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 48:35 ClientSpawn: 1
+ 48:44 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 48:45 Hit: 0 1 10 17: emir hit ghost in the Right Upper Leg
+ 48:45 Hit: 0 1 9 17: emir hit ghost in the Left Upper Leg
+ 48:45 Hit: 0 1 7 17: emir hit ghost in the Groin
+ 48:45 Hit: 0 1 3 17: emir hit ghost in the Torso
+ 48:46 Hit: 1 0 4 15: ghost hit emir in the Vest
+ 48:46 Hit: 1 0 6 15: ghost hit emir in the Right Arm
+ 48:46 Hit: 1 0 9 15: ghost hit emir in the Left Upper Leg
+ 48:46 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 48:49 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 48:49 ClientUserinfoChanged: 1 n\emir\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 48:50 ClientSpawn: 1
+ 48:51 Hit: 0 1 3 15: emir hit ghost in the Torso
+ 48:51 Kill: 1 0 30: emir killed ghost by UT_MOD_AK103
+ 48:55 ClientSpawn: 0
+ 48:56 Item: 1 ut_weapon_ak103
+ 48:57 Item: 1 ut_weapon_deagle
+ 49:36 Hit: 0 1 5 15: emir hit ghost in the Left Arm
+ 49:36 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 49:36 Hit: 1 0 7 15: ghost hit emir in the Groin
+ 49:37 Hit: 1 0 10 15: ghost hit emir in the Right Upper Leg
+ 49:37 Kill: 0 1 30: ghost killed emir by UT_MOD_AK103
+ 49:39 Item: 0 ut_weapon_ak103
+ 49:40 ClientSpawn: 1
+ 49:44 Kill: 0 0 10: ghost killed ghost by MOD_CHANGE_TEAM
+ 49:44 ClientUserinfo: 0 \ip\localhost\name\ghost\racered\3\raceblue\3\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\funred\patch\funblue\patch\cg_physics\1\g_gametype\3\gear\GaAOVWA\funfree\patch\racefree\2\cl_time\TD7Y2VEh6y|abGL#\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\15DDB74B19F30950707BB172445AA60A\weapmodes\00000110220000020000000
+ 49:44 ClientUserinfoChanged: 0 n\ghost\t\3\r\2\tl\0\f0\patch\f1\\f2\\a0\255\a1\255\a2\255
+ 49:44 ClientBegin: 0
+ 54:23 Kill: 1 1 10: emir killed emir by MOD_CHANGE_TEAM
+ 54:23 ClientUserinfo: 1 \ip\192.168.4.175:27960\name\emir\racered\1\raceblue\1\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAQRTA\funfree\ninja\racefree\1\cl_time\HZK9Q_c01RC2xtn=\cg_ghost\0\cg_autoPickup\-1\snaps\20\color1\4\color2\5\handicap\100\sex\male\authc\0\cl_guid\E2889CE3EA8AC75F6F33B3D02D6CD15F\weapmodes\01000110110000000000000
+ 54:23 ClientUserinfoChanged: 1 n\emir\t\3\r\1\tl\0\f0\ninja\f1\\f2\\a0\255\a1\255\a2\255
+ 54:23 ClientBegin: 1
+ 57:09 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GaAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 57:09 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 57:09 ClientSpawn: 2
+ 57:09 ClientBegin: 2
+ 57:13 ClientUserinfo: 2 \ip\192.168.4.41:27960\name\lis\racered\2\raceblue\2\rate\16000\ut_timenudge\0\cg_rgb\128 128 128\cg_physics\1\gear\GLAOWAA\racefree\2\cl_time\?cC3HKy0qM&YO?K?\cg_ghost\0\cg_autoPickup\-1\sex\male\handicap\100\color2\5\color1\4\snaps\20\authc\0\cl_guid\1721CE399BE788C20CC7F102C459E595\weapmodes\00000110220000020002000
+ 57:13 ClientUserinfoChanged: 2 n\lis\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 57:15 ShutdownGame:
+ 57:15 ------------------------------------------------------------
